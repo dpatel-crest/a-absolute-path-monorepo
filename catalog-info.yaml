@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: abs-path-repo
+spec:
+  type: url
+  owner: dhrumit
+  lifecycle: experimental
+  targets:
+    - https://github.com/dpatel-crest/a-absolute-path-monorepo/blob/main/abs-path/abs-1/backstage.yaml
+    - https://github.com/dpatel-crest/a-absolute-path-monorepo/blob/main/abs-path/abs-2/backstage.yaml
