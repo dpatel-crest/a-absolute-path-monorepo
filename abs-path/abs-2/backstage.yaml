@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: abs-2
+  title: abs-2
+  description: Component for abs-2
+  annotations:
+    github.com/project-slug: abs-2
+  tags: 
+    - nodejs
+spec:
+  type: service
+  owner: unknown
+  lifecycle: experimental
